@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/img/weatherImages.png">
+    <script src="./js/app.js" defer ></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h1>{{titles}}</h1>
+
+        <form action="">
+            <input type="text" placeholder="Location">
+            <button >Search</button>
+        </form>
+        <p id="place"></p>
+        <p id="forcastData"></p>
+    </div>
+     
+    {{>footer}}
+</body>
+</html>
